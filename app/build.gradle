@@ -33,3 +33,7 @@ tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+dependencies {
+    implementation 'org.json:json:202103-07'
+}
